@@ -68,6 +68,7 @@
     <ClCompile Include="src\features\fov.cpp" />
     <ClCompile Include="src\features\fps_limit.cpp" />
     <ClCompile Include="src\features\hit_test.cpp" />
+    <ClCompile Include="src\features\http_download.cpp" />
     <ClCompile Include="src\features\hud.cpp" />
     <ClCompile Include="src\features\list_scroll.cpp" />
     <ClCompile Include="src\features\master_server.cpp" />

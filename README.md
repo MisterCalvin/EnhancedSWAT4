@@ -126,6 +126,7 @@ Sets a maximum framerate. A value of `0` disables the limiter, `-1` matches the 
 ### Multiplayer
 - Updates the master server to use [swat4stats.com](https://swat4stats.com), restoring the in-game server browser without requiring a patched `Engine.dll`.
 - Net speed is forced to 480 kbps (32x the stock LAN/T1 limit), providing plenty of bandwidth headroom for higher FPS. The in-game Connection Speed setting is ignored, preventing a misconfigured setting from bottlenecking the connection.
+- Content downloaded from a server's HTTP redirect, such as custom maps, is no longer limited to 1 KB per frame (around 60 KB/s). Downloads now run at the speed of the connection.
 
 ### SwatEd
 - Fixed the long delay when making selections in SwatEd on modern hardware.

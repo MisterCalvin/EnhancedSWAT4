@@ -61,6 +61,7 @@
     <ClCompile Include="src\core\logging.cpp" />
     <ClCompile Include="src\dllmain.cpp" />
     <ClCompile Include="src\features\anisotropic_filtering.cpp" />
+    <ClCompile Include="src\features\cache_write_error.cpp" />
     <ClCompile Include="src\features\device_reset.cpp" />
     <ClCompile Include="src\features\display_mode.cpp" />
     <ClCompile Include="src\features\editor_gamma.cpp" />

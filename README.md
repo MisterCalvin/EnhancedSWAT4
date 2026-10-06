@@ -138,3 +138,4 @@ Sets a maximum framerate. A value of `0` disables the limiter, `-1` matches the 
 - Fixed crashes that could occur when alt-tabbing out of the game while in fullscreen, particularly when an overlay such as RivaTuner was hooked.
 - Fixed a bug that could cause some systems to display an insufficient video memory warning.
 - Disabled Massive advertisements to prevent potential server-related crashes in the future.
+- Fixed clients getting stuck on "Connecting" with a "Failed to write" error when a server reloaded a map they had downloaded from it.

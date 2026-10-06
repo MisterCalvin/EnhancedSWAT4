@@ -33,6 +33,9 @@
     <ClCompile Include="src\features\anisotropic_filtering.cpp">
       <Filter>features</Filter>
     </ClCompile>
+    <ClCompile Include="src\features\cache_write_error.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
     <ClCompile Include="src\features\device_reset.cpp">
       <Filter>features</Filter>
     </ClCompile>
